@@ -4,7 +4,10 @@ GitLab Community Edition доступен абсолютно бесплатно 
 
 Установка: 
 https://ru.linux-console.net/?p=3168&ysclid=ll9vw5oq9i133533943#gsc.tab=0
+
 0. Через Cloud Marketplace в Yandex.Cloud
 1. Пароль находится в cat /etc/gitlab/initial_root_password, а пользователь - root
 2. Переходим нпо локальному хосту или смотрим файл /etc/gitlab/gitlab.rb и в нем редактируем адрес
-3. 
+3. Скачиваем git в консоль и добавляем адресс проекта к себе
+4. Чтобы настроить push необходимо снять ограничения на force (https://dirask.com/posts/Fix-for-Gitlab-failed-to-push-some-refs-paoqO1)
+5. Теперь имеем в Gitlab репозиторий из GitHub
